@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>f6a31a13-fa07-4b64-9c1c-c0dc674f094f</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.0-preview.3.21201.2" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="5.0.0-beta.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Homer.Api.CrossCutting\Homer.Api.CrossCutting.csproj" />
+    <ProjectReference Include="..\Homer.Api.Data\Homer.Api.Data.csproj" />
+    <ProjectReference Include="..\Homer.Api.Service\Homer.Api.Service.csproj" />
+  </ItemGroup>
+
+</Project>

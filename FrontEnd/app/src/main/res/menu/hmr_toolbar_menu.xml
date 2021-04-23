@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+            android:id="@+id/search"
+            android:icon="@drawable/hmr_pesquisa"
+            android:title="@string/hmr_search_title"
+            app:showAsAction="always" />
+    <item
+            android:id="@+id/filter"
+            android:icon="@drawable/hmr_filtro"
+            android:title="@string/hmr_filter_title"
+            app:showAsAction="always" />
+</menu>

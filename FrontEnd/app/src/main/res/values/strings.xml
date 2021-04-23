@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Homer Imóveis Viewer</string>
+
+    <string name="hmr_app_name">Homer Imóveis</string>
+    <string name="hmr_hint_username">Usuário</string>
+    <string name="hmr_hint_password">Senha</string>
+    <string name="hmr_button_next">Acessar</string>
+    <string name="hmr_button_cancel">Cancelar</string>
+    <string name="hmr_error_senha">Senha deve conter no mínimo 8 caracteres.</string>
+    <string name="hmr_filter_title">Filtro</string>
+    <string name="hmr_search_title">Pesquisa</string>
+    <string name="hmr_imovel_titulo">Título</string>
+    <string name="hmr_imovel_local">Local</string>
+
+    <string name="hmr_logo_content_description">HOMER</string>
+</resources>
